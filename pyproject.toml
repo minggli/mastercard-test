@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mastercard-test"
+version = "0.1.0"
+description = "technical test from Ming Li"
+authors = ["Ming Li <ming.george.li@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.26"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.2"
+shap = "^0.45.1"
+xgboost = "^2.0.3"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.0"
+mypy = "^1.10.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
